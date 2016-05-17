@@ -1,0 +1,56 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : -1.498 ns
+From           : reset
+To             : vga640480:u1|address[9]
+From Clock     : --
+To Clock       : clk_0
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 15.635 ns
+From           : vga640480:u1|vs1
+To             : r[0]
+From Clock     : clk_0
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 1.764 ns
+From           : reset
+To             : vga640480:u1|address[9]
+From Clock     : --
+To Clock       : clk_0
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk_0'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 180.05 MHz ( period = 5.554 ns )
+From           : vga640480:u1|address[3]
+To             : digital_rom:u2|altsyncram:altsyncram_component|altsyncram_o181:auto_generated|ram_block1a0~porta_address_reg3
+From Clock     : clk_0
+To Clock       : clk_0
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

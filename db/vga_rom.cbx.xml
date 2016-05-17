@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="vga_rom">
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_rom|digital_rom:u2|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_uo71.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
